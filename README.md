@@ -1,6 +1,6 @@
 # PDF Slicer
 
-![PDF Slicer Banner](public/pwa-512x512.png)
+<img src="public/pwa-512x512.png" alt="PDF Slicer Icon" width="128" />
 
 A highly aesthetic, **local-first** web application designed to instantly split dual-page PDF scans (like books or sheet music) into individual, properly ordered single pages perfectly down the middle. 
 
