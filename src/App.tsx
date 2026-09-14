@@ -1,5 +1,5 @@
 import React, { useState, useCallback, useRef } from 'react';
-import { UploadCloud, FileText, CheckCircle2, Loader2, Download, AlertCircle } from 'lucide-react';
+import { UploadCloud, CheckCircle2, Loader2, Download, AlertCircle } from 'lucide-react';
 import { processPDF } from './utils/pdfProcessor';
 
 function App() {
