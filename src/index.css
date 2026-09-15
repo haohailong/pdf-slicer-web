@@ -3,10 +3,13 @@
 @tailwind utilities;
 
 @layer base {
+  html {
+    background-color: #0f172a;
+  }
   body {
-    @apply bg-slate-900 text-slate-100 font-sans antialiased min-h-screen selection:bg-blue-500/30;
-    /* Soft dark background with a gradient */
-    background: radial-gradient(circle at 50% -20%, #1e293b, #0f172a);
+    @apply text-slate-100 font-sans antialiased min-h-[100dvh] selection:bg-blue-500/30;
+    background-color: #0f172a;
+    background-image: radial-gradient(circle at 50% -20%, #1e293b, #0f172a);
   }
 }
 
