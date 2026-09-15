@@ -75,10 +75,9 @@ function App() {
         href="https://github.com/haohailong/pdf-slicer-web" 
         target="_blank" 
         rel="noopener noreferrer"
-        className="absolute z-50 flex items-center gap-2 px-4 py-2 bg-slate-800/50 hover:bg-slate-700/50 backdrop-blur-md border border-white/10 rounded-full text-slate-300 hover:text-white transition-all shadow-lg hover:shadow-xl"
-        style={{ top: 'max(1.5rem, env(safe-area-inset-top))', right: 'max(1.5rem, env(safe-area-inset-right))' }}
+        className="absolute top-4 right-4 sm:top-6 sm:right-6 z-50 flex items-center gap-2 px-3 py-2 sm:px-4 bg-slate-800/50 hover:bg-slate-700/50 backdrop-blur-md border border-white/10 rounded-full text-slate-300 hover:text-white transition-all shadow-lg hover:shadow-xl"
       >
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-5 h-5">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-5 h-5">
           <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.2c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4" />
           <path d="M9 18c-4.51 2-5-2-7-2" />
         </svg>
@@ -89,18 +88,18 @@ function App() {
       <div className="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-blue-500/20 rounded-full blur-[120px] pointer-events-none" />
       <div className="absolute bottom-[-10%] right-[-10%] w-[40%] h-[40%] bg-purple-500/20 rounded-full blur-[120px] pointer-events-none" />
       
-      <div className="z-10 w-full max-w-2xl animate-slide-up">
-        <div className="text-center mb-10 flex flex-col items-center">
-          <img src="/favicon.png" alt="PDF Slicer Icon" className="w-24 h-24 mb-6 rounded-2xl shadow-2xl shadow-blue-500/20" />
-          <h1 className="text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-400 mb-4 tracking-tight">
+      <div className="z-10 w-full max-w-2xl animate-slide-up mt-8 sm:mt-0">
+        <div className="text-center mb-6 sm:mb-10 flex flex-col items-center">
+          <img src="/favicon.png" alt="PDF Slicer Icon" className="w-20 h-20 sm:w-24 sm:h-24 mb-4 sm:mb-6 rounded-2xl shadow-2xl shadow-blue-500/20" />
+          <h1 className="text-4xl sm:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 via-blue-300 to-purple-300 mb-2 sm:mb-4 tracking-tight drop-shadow-sm">
             PDF Slicer
           </h1>
-          <p className="text-slate-400 text-lg">
+          <p className="text-slate-400 text-sm sm:text-lg max-w-md mx-auto">
             Split dual-page scans into single pages. 100% locally in your browser.
           </p>
         </div>
 
-        <div className="glass rounded-3xl p-8 sm:p-12 text-center transition-all duration-300">
+        <div className="glass rounded-3xl p-6 sm:p-12 text-center relative overflow-hidden group transition-all duration-300">
           {status === 'idle' || status === 'error' ? (
             <div 
               className={`border-2 border-dashed rounded-2xl p-12 transition-all cursor-pointer flex flex-col items-center justify-center min-h-[300px]
