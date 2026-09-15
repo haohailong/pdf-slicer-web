@@ -1,5 +1,5 @@
 import React, { useState, useCallback, useRef } from 'react';
-import { UploadCloud, CheckCircle2, Loader2, Download, AlertCircle } from 'lucide-react';
+import { UploadCloud, CheckCircle2, Loader2, Download, AlertCircle, Github } from 'lucide-react';
 import { processPDF } from './utils/pdfProcessor';
 
 function App() {
@@ -70,6 +70,17 @@ function App() {
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center p-4 relative overflow-hidden">
+      {/* Top right GitHub Link */}
+      <a 
+        href="https://github.com/haohailong/pdf-slicer-web" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        className="absolute top-6 right-6 z-50 flex items-center gap-2 px-4 py-2 bg-slate-800/50 hover:bg-slate-700/50 backdrop-blur-md border border-white/10 rounded-full text-slate-300 hover:text-white transition-all shadow-lg hover:shadow-xl"
+      >
+        <Github className="w-5 h-5" />
+        <span className="text-sm font-medium hidden sm:inline">Source Code</span>
+      </a>
+
       {/* Background decorations */}
       <div className="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-blue-500/20 rounded-full blur-[120px] pointer-events-none" />
       <div className="absolute bottom-[-10%] right-[-10%] w-[40%] h-[40%] bg-purple-500/20 rounded-full blur-[120px] pointer-events-none" />
