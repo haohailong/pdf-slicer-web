@@ -62,6 +62,10 @@ Since this is a pure static frontend application, it can be deployed anywhere fo
 2. **Deploy to GitHub Pages, Vercel, Netlify, or Cloudflare Pages:**
    Simply drag and drop the `dist` folder into your hosting provider, or link your GitHub repository to automatically build and deploy.
 
-## 📝 License
+## 📝 License & Copyright
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+PDF Slicer 采用 [MIT License](https://github.com/haohailong/pdf-slicer-web/blob/main/LICENSE) 发布，允许使用、复制、修改、合并、发布和分发，但必须保留版权及许可证声明。  
+PDF Slicer is released under the [MIT License](https://github.com/haohailong/pdf-slicer-web/blob/main/LICENSE). You may use, copy, modify, merge, publish, and distribute it, provided that the copyright and license notice are retained.
+
+版权所有 &copy; 2026 [Hailong Hao](https://github.com/haohailong) ([@haohailong](https://github.com/haohailong))。  
+Copyright &copy; 2026 [Hailong Hao](https://github.com/haohailong) ([@haohailong](https://github.com/haohailong)).

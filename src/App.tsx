@@ -161,6 +161,16 @@ function App() {
           )}
         </div>
       </div>
+      
+      {/* Footer */}
+      <footer className="z-10 mt-12 mb-6 text-slate-500 text-xs text-center animate-fade-in max-w-xl mx-auto space-y-2">
+        <p>
+          PDF Slicer is released under the <a href="https://github.com/haohailong/pdf-slicer-web/blob/main/LICENSE" target="_blank" rel="noopener noreferrer" className="hover:text-slate-300 transition-colors underline decoration-slate-700 underline-offset-4">MIT License</a>. You may use, copy, modify, merge, publish, and distribute it, provided that the copyright and license notice are retained.
+        </p>
+        <p>
+          Copyright &copy; 2026 <a href="https://github.com/haohailong" target="_blank" rel="noopener noreferrer" className="hover:text-slate-300 transition-colors underline decoration-slate-700 underline-offset-4">Hailong Hao</a> (<a href="https://github.com/haohailong" target="_blank" rel="noopener noreferrer" className="hover:text-slate-300 transition-colors underline decoration-slate-700 underline-offset-4">@haohailong</a>).
+        </p>
+      </footer>
     </div>
   );
 }
