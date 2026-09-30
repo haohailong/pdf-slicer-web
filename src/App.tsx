@@ -184,6 +184,9 @@ function App() {
       
       {/* Footer */}
       <footer className="z-10 mt-12 mb-6 text-slate-500 text-xs text-center animate-fade-in max-w-xl mx-auto space-y-2">
+        <p className="mb-6 text-sm text-slate-400">
+          Also check out <a href="https://epub-tweaker.olo.la/" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 transition-colors font-medium underline decoration-blue-500/50 underline-offset-4">EPUB Tweaker</a> ✨ — Fine-tune and customize your EPUB ebooks locally.
+        </p>
         <p>
           PDF Slicer is released under the <a href="https://github.com/haohailong/pdf-slicer-web/blob/main/LICENSE" target="_blank" rel="noopener noreferrer" className="hover:text-slate-300 transition-colors underline decoration-slate-700 underline-offset-4">MIT License</a>. You may use, copy, modify, merge, publish, and distribute it, provided that the copyright and license notice are retained.
         </p>
