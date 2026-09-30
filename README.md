@@ -4,7 +4,7 @@
 <h1 align="center">PDF Slicer</h1>
 
 <p align="center">
-  <a href="https://pdf-slicer-neo.vercel.app/" target="_blank"><strong>✨ Try PDF Slicer Web App ✨</strong></a>
+  <a href="https://pdf-slicer.olo.la/" target="_blank"><strong>✨ Try PDF Slicer Web App ✨</strong></a>
 </p>
 
 A highly aesthetic, **local-first** web application designed to instantly split dual-page PDF scans (like books or sheet music) into individual, properly ordered single pages perfectly down the middle. 
